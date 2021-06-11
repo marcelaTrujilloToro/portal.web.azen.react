@@ -1,0 +1,9 @@
+.pa-logo-cliente{
+    height: 50px;
+    width: 50px;
+}
+
+.MuiGrid-container{
+    align-items: center;
+    justify-content:space-evenly;
+}

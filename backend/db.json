@@ -1,9 +1,9 @@
 {
     "datosIniciales":{
-        "azen": "",
-        "logoAzen": "",
-        "cliente": "",
-        "logoCliente": ""
+        "azen": "AZEN consultoria",
+        "logoAzen": "https://github.com/marcelaTrujilloToro/loteriApp.ionic.react/blob/main/public/assets/img/splash/LoteriApp_azen_96x30.png?raw=true",
+        "cliente": "Nombre cliente ..............",
+        "logoCliente": "https://www.togasybirretesmexico.com.mx/wp-content/uploads/2019/02/LOGO-CLIENTES.png"
     },
     "gruposAplicaciones": 
     [
@@ -51,37 +51,46 @@
     "opcionesPreferidas":
     [
         {
-            "apl": "",
-            "descr": "",
-            "opc": "",
-            "descrOpc": "",
+            "apl": "apl",
+            "descr": "descripcion",
+            "opc": "opcion1",
+            "descrOpc": "descripcion",
             "img": "",
-            "activo": "1|0"
+            "activo": "1"
         },
         {
-            "apl": "",
-            "descr": "",
-            "opc": "",
-            "descrOpc": "",
+            "apl": "apl",
+            "descr": "descripcion",
+            "opc": "opcion2",
+            "descrOpc": "descripcion",
             "img": "",
-            "activo": "1|0"
+            "activo": "1"
+        },
+        {
+            "apl": "apl",
+            "descr": "descripcion",
+            "opc": "opcion3",
+            "descrOpc": "descripcion",
+            "img": "",
+            "activo": "1"
         }
+        
     ],
     "opcionesFrecuentes":
     [
         {
-            "apl": "",
-            "descr": "",
-            "opc": "",
-            "descrOpc": "",
+            "apl": "apl",
+            "descr": "descripcion",
+            "opc": "opcion1",
+            "descrOpc": "descripcion",
             "img": "",
             "activo": "1|0"
         },
         {
-            "apl": "",
-            "descr": "",
-            "opc": "",
-            "descrOpc": "",
+            "apl": "apl",
+            "descr": "descripcion",
+            "opc": "opcion2",
+            "descrOpc": "descripcion",
             "img": "",
             "activo": "1|0"
         }
