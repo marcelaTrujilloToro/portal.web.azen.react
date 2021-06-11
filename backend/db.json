@@ -1,0 +1,89 @@
+{
+    "datosIniciales":{
+        "azen": "",
+        "logoAzen": "",
+        "cliente": "",
+        "logoCliente": ""
+    },
+    "gruposAplicaciones": 
+    [
+        { 
+            "area":"",
+            "img":"",
+            "aplicaciones": 
+            [
+                {
+                        "apl": "",
+                        "descr": "",
+                        "img": "",
+                        "activo": "1|0"
+                    },
+                    {
+                        "apl": "",
+                        "descr": "",
+                        "img": "",
+                        "activo": "1|0"
+                    }
+                    
+                ]
+            },
+            { 
+                "area":"",
+                "img":"",
+                "aplicaciones": 
+                [
+                    {
+                        "apl": "",
+                        "descr": "",
+                        "img": "",
+                        "activo": "1|0"
+                    },
+                    {
+                        "apl": "",
+                        "descr": "",
+                        "img": "",
+                        "activo": "1|0"
+                    }
+                    
+                ]
+        }
+    ],
+    "opcionesPreferidas":
+    [
+        {
+            "apl": "",
+            "descr": "",
+            "opc": "",
+            "descrOpc": "",
+            "img": "",
+            "activo": "1|0"
+        },
+        {
+            "apl": "",
+            "descr": "",
+            "opc": "",
+            "descrOpc": "",
+            "img": "",
+            "activo": "1|0"
+        }
+    ],
+    "opcionesFrecuentes":
+    [
+        {
+            "apl": "",
+            "descr": "",
+            "opc": "",
+            "descrOpc": "",
+            "img": "",
+            "activo": "1|0"
+        },
+        {
+            "apl": "",
+            "descr": "",
+            "opc": "",
+            "descrOpc": "",
+            "img": "",
+            "activo": "1|0"
+        }
+    ]
+}
