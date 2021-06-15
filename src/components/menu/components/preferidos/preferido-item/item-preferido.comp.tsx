@@ -1,5 +1,5 @@
 import React from "react";
-import { OpcionPreferido } from "../../../models/opciones-preferidas/OpcionPreferido";
+import { OpcionPreferido } from "../../../../../models/opciones-preferidas/OpcionPreferido";
 import { List, ListItem, ListItemIcon, makeStyles } from "@material-ui/core";
 import StarRoundedIcon from '@material-ui/icons/StarRounded';
 
@@ -13,7 +13,7 @@ const useEstilos = makeStyles((theme) => ({
     },
     listaItem: {
         padding: 5,
-        color: "white"
+        color: "#cae1c4"
     },
     color:{
         color: "white"

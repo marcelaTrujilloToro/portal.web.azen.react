@@ -2,25 +2,25 @@
     "datosIniciales":{
         "azen": "AZEN consultoria",
         "logoAzen": "https://github.com/marcelaTrujilloToro/loteriApp.ionic.react/blob/main/public/assets/img/splash/LoteriApp_azen_96x30.png?raw=true",
-        "cliente": "Nombre cliente ..............",
+        "cliente": "NOMBRE CLIENTE ..............",
         "logoCliente": "https://www.togasybirretesmexico.com.mx/wp-content/uploads/2019/02/LOGO-CLIENTES.png"
     },
     "gruposAplicaciones": 
     [
         { 
-            "area":"",
+            "area":"Contabilidad",
             "img":"",
             "aplicaciones": 
             [
                 {
-                        "apl": "",
-                        "descr": "",
+                        "apl": "ctb",
+                        "descr": "contabilidad1",
                         "img": "",
                         "activo": "1|0"
                     },
                     {
-                        "apl": "",
-                        "descr": "",
+                        "apl": "ctb",
+                        "descr": "contabilidad2",
                         "img": "",
                         "activo": "1|0"
                     }
@@ -28,24 +28,24 @@
                 ]
             },
             { 
-                "area":"",
-                "img":"",
-                "aplicaciones": 
-                [
-                    {
-                        "apl": "",
-                        "descr": "",
-                        "img": "",
-                        "activo": "1|0"
-                    },
-                    {
-                        "apl": "",
-                        "descr": "",
-                        "img": "",
-                        "activo": "1|0"
-                    }
-                    
-                ]
+            "area":"Cartera",
+            "img":"",
+            "aplicaciones": 
+            [
+                {
+                    "apl": "crt",
+                    "descr": "cartera1",
+                    "img": "",
+                    "activo": "1|0"
+                },
+                {
+                    "apl": "crt",
+                    "descr": "cartera2",
+                    "img": "",
+                    "activo": "1|0"
+                }
+                
+            ]
         }
     ],
     "opcionesPreferidas":
@@ -73,6 +73,23 @@
             "descrOpc": "descripcion",
             "img": "",
             "activo": "1"
+        },
+        
+        {
+            "apl": "apl",
+            "descr": "descripcion",
+            "opc": "opcion4",
+            "descrOpc": "descripcion",
+            "img": "",
+            "activo": "1"
+        },
+        {
+            "apl": "apl",
+            "descr": "descripcion",
+            "opc": "opcion5",
+            "descrOpc": "descripcion",
+            "img": "",
+            "activo": "1"
         }
         
     ],
@@ -93,6 +110,23 @@
             "descrOpc": "descripcion",
             "img": "",
             "activo": "1|0"
+        },
+        {
+            "apl": "apl",
+            "descr": "descripcion",
+            "opc": "opcion3",
+            "descrOpc": "descripcion",
+            "img": "",
+            "activo": "1"
+        },
+        
+        {
+            "apl": "apl",
+            "descr": "descripcion",
+            "opc": "opcion4",
+            "descrOpc": "descripcion",
+            "img": "",
+            "activo": "1"
         }
     ]
 }

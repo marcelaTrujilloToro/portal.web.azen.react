@@ -1,11 +1,11 @@
 import React from "react";
 import { Divider, Drawer, makeStyles } from "@material-ui/core";
-import { useDatosIniciales } from "../../hooks/datos-iniciales/useDatos.hook";
-import { useOpcionesPreferidas } from "../../hooks/opciones-preferidas/useOpcionesPreferidas.hook";
-import { useOpcionesFrecuentes } from "../../hooks/opciones-frecuentes/useOpcionesFrecuentes.hook";
-import ListaPreferidos from "../preferidos/lista-preferidos/lista-preferidos.comp";
-import ListaFrecuentes from "../frecuentes/lista-frecuentes/lista-frecuentes.comp";
-
+import { useDatosIniciales } from "../../../hooks/datos-iniciales/useDatos.hook";
+import { useOpcionesPreferidas } from "../../../hooks/opciones-preferidas/useOpcionesPreferidas.hook";
+import { useOpcionesFrecuentes } from "../../../hooks/opciones-frecuentes/useOpcionesFrecuentes.hook";
+import ListaPreferidos from "../components/preferidos/lista-preferidos/lista-preferidos.comp";
+import ListaFrecuentes from "../components/frecuentes/lista-frecuentes/lista-frecuentes.comp";
+import './menu.style.css';
 
 const useEstilos = makeStyles((theme) => ({
   drawer: {
@@ -14,7 +14,7 @@ const useEstilos = makeStyles((theme) => ({
 },
 drawerPaper: {
     width: 240,
-    backgroundColor: '#468a33',
+    backgroundColor: '#59c806',
     alignItems: 'center'
 },
 toolbar: theme.mixins.toolbar,
@@ -42,11 +42,11 @@ const MenuComp = (props: any) => {
       onClose={props.onClose ? props.onClose : null}
     >
       <img className="pa-logo-azen" src={respuesta?.logoAzen} alt="" />
-      <div className={classes.toolbar}></div>
-      <Divider light={true}/>
+      <hr className="pa-division-menu"/>
+      {/* <div className={classes.toolbar}></div> */}
       <ListaPreferidos listaPreferidos={respuestaOpcionesPreferidas}/>
-      <div className={classes.toolbar}></div>
-      <Divider light={true} />
+      {/* <div className={classes.toolbar}></div> */}
+      <hr className="pa-division-menu"/>
       <ListaFrecuentes listaFrecuentes= {respuestaOpcionesFrecuentes}/>
     </Drawer>
   );

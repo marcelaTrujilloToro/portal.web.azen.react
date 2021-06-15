@@ -7,6 +7,7 @@ import {
     IconButton,
     Icon, Grid,
 } from "@material-ui/core";
+import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 
 import { useDatosIniciales } from "../../hooks/datos-iniciales/useDatos.hook";
 import './nav-bar.style.css';
@@ -28,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
       marginLeft: 240,
       
     },
-    backgroundColor: "#4e9c3a"
+    backgroundColor: "#3cad06"
   },
 }));
 
@@ -61,6 +62,15 @@ const NavBar = (props: any) => {
           <Typography variant="h6">{respuesta?.cliente}</Typography>
         </Grid>
       </Grid>
+
+      <IconButton
+        color="inherit"
+        aria-label="menu"
+        className={classes.menuButton}
+        onClick={() => props.accionAbrirSoporte()}
+      >
+         <HelpOutlineIcon/>
+      </IconButton>
       
     </Toolbar>
   </AppBar>

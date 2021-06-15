@@ -1,5 +1,5 @@
 import React from "react";
-import { OpcionFrecuente } from "../../../models/opciones-frecuentes/OpcionFrecuente";
+import { OpcionFrecuente } from "../../../../../models/opciones-frecuentes/OpcionFrecuente";
 import { List, ListItem, ListItemIcon, makeStyles } from "@material-ui/core";
 import RepeatRoundedIcon from '@material-ui/icons/RepeatRounded';
 
@@ -13,7 +13,7 @@ const useEstilos = makeStyles((theme) => ({
     },
     listaItem: {
         padding: 5,
-        color: "white"
+        color: "#cae1c4"
     },
     color:{
         color: "white"
