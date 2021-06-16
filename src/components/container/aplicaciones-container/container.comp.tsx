@@ -4,7 +4,7 @@ import { Hidden } from "@material-ui/core";
 import NavBar from "../../nav-bar/nav-bar.comp";
 import MenuComp from "../../menu/menu/menu.comp";
 import DrawerDerecho from "../../drawer-derecho/drawer/drawer.comp";
-import BoxAplicaciones from "../../container/box-aplicaciones/box-aplicaciones.comp";
+import BoxAplicaciones from "../components/box-aplicaciones/box-aplicaciones.comp";
 
 const useEstilos = makeStyles((theme) => ({
   root: {
@@ -14,7 +14,7 @@ const useEstilos = makeStyles((theme) => ({
   content: {
     flexGrow: 1,
     backgroundColor: theme.palette.background.default,
-    padding: theme.spacing(3),
+    padding: theme.spacing(1),
   },
 }));
 
@@ -35,16 +35,19 @@ const ContainerComp = () => {
   return (
     <div className={classes.root}>
       <NavBar accionAbrir={accionAbrir} accionAbrirSoporte={accionAbrirSoporte}/>
+
       <Hidden xsDown>
         <MenuComp variant="permanent" open={true} />
       </Hidden>
       <Hidden smUp>
         <MenuComp variant="temporary" open={abrirMenu} onClose={accionAbrir} />
       </Hidden>
+
       <div className={classes.content}>
         <div className={classes.toolbar}></div>
         <BoxAplicaciones/>
       </div>
+      
       <Hidden smDown>
         <DrawerDerecho variant="permanent" open={true} />
       </Hidden>

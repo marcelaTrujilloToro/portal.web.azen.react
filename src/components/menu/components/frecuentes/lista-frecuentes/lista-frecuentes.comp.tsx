@@ -13,7 +13,7 @@ type ListaFrecuentesProps = {
 
 const useEstilos = makeStyles((theme) => ({
     fuenteTitulo: {
-        color: "#337303",
+        color: "#1f5803",
     }
   }));
 

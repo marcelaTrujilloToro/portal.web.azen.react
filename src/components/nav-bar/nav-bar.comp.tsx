@@ -19,6 +19,12 @@ const useStyles = makeStyles((theme) => ({
       display: "none",
     },
   },
+  soporteButton: {
+    marginRight: theme.spacing(2),
+    [theme.breakpoints.up("md")]: {
+      display: "none",
+    },
+  },
 
   title: {
     flexGrow: 3,
@@ -65,8 +71,8 @@ const NavBar = (props: any) => {
 
       <IconButton
         color="inherit"
-        aria-label="menu"
-        className={classes.menuButton}
+        aria-label="soporte"
+        className={classes.soporteButton}
         onClick={() => props.accionAbrirSoporte()}
       >
          <HelpOutlineIcon/>

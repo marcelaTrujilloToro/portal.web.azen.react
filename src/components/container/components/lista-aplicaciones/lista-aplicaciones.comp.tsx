@@ -1,6 +1,6 @@
 import { Grid, makeStyles, Typography } from '@material-ui/core';
 import React from 'react';
-import { Aplicacion } from '../../../models/grupo-aplicaciones/Aplicacion';
+import { Aplicacion } from '../../../../models/grupo-aplicaciones/Aplicacion';
 import ItemAplicacion from '../item-aplicacion/item-aplicacion.comp';
 
 type ListaAplicacionesProps = {

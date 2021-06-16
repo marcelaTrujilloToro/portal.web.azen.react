@@ -1,6 +1,6 @@
-import { Divider, Grid, ListItemIcon, makeStyles, Typography } from "@material-ui/core";
+import { Grid, ListItemIcon, makeStyles, Typography } from "@material-ui/core";
 import React from "react";
-import { GrupoAplicaciones } from "../../../models/grupo-aplicaciones/GrupoAplicaciones";
+import { GrupoAplicaciones } from "../../../../models/grupo-aplicaciones/GrupoAplicaciones";
 import ListaAplicaciones from "../lista-aplicaciones/lista-aplicaciones.comp";
 import BusinessIcon from '@material-ui/icons/Business';
 import './lista-grupo-aplicaciones.style.css';
@@ -15,7 +15,7 @@ const useEstilos = makeStyles((theme) => ({
       color: "#068fad"
   },
   color:{
-      color: "#184502"
+      color: "#1f5803"
   }
 
 }));

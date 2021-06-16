@@ -1,5 +1,5 @@
 import React from "react";
-import { Divider, Drawer, makeStyles } from "@material-ui/core";
+import { Drawer, makeStyles } from "@material-ui/core";
 import { useDatosIniciales } from "../../../hooks/datos-iniciales/useDatos.hook";
 import { useOpcionesPreferidas } from "../../../hooks/opciones-preferidas/useOpcionesPreferidas.hook";
 import { useOpcionesFrecuentes } from "../../../hooks/opciones-frecuentes/useOpcionesFrecuentes.hook";
@@ -14,7 +14,7 @@ const useEstilos = makeStyles((theme) => ({
 },
 drawerPaper: {
     width: 240,
-    backgroundColor: '#59c806',
+    backgroundColor: '#369c05',
     alignItems: 'center'
 },
 toolbar: theme.mixins.toolbar,

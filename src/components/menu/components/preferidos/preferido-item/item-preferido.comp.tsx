@@ -13,7 +13,7 @@ const useEstilos = makeStyles((theme) => ({
     },
     listaItem: {
         padding: 5,
-        color: "#cae1c4"
+        color: "#ecf7e6"
     },
     color:{
         color: "white"

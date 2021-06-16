@@ -1,7 +1,7 @@
 import React from "react";
 import { List, ListItem, ListItemIcon, makeStyles } from "@material-ui/core";
 import BarChartIcon from '@material-ui/icons/BarChart';
-import { Aplicacion } from "../../../models/grupo-aplicaciones/Aplicacion";
+import { Aplicacion } from "../../../../models/grupo-aplicaciones/Aplicacion";
 
 type AplicacionProps = {
   aplicacion: Aplicacion;
@@ -10,6 +10,7 @@ type AplicacionProps = {
 const useEstilos = makeStyles((theme) => ({
     list:{
         padding: 0,
+        margin: 0
     },
     listaItem: {
         padding: 5,
@@ -31,10 +32,8 @@ const AplicacionItem: React.FC<AplicacionProps> = (props) => {
         <ListItemIcon>
           <BarChartIcon className={classes.color}/>
         </ListItemIcon>
-        <ListItem>
         <ListItem className={classes.listaItem}>{props.aplicacion.apl}</ListItem>
         <ListItem className={classes.listaItem}>{props.aplicacion.descr}</ListItem>
-        </ListItem>
       </ListItem>
     </List>
   );
