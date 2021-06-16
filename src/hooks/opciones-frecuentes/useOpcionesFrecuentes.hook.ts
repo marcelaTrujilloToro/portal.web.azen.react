@@ -13,6 +13,7 @@ export const useOpcionesFrecuentes = () => {
 
     return useQuery<OpcionFrecuente[]>(['opcionesFrecuentes'], async () => {
         const { data } = await azenApi.get(`opcionesFrecuentes`);
+
         return data;
     }, {
         retry: 1,

@@ -1,6 +1,6 @@
 import React from "react";
 import { List, ListItem, ListItemIcon, makeStyles } from "@material-ui/core";
-import RepeatRoundedIcon from "@material-ui/icons/RepeatRounded";
+import BarChartIcon from '@material-ui/icons/BarChart';
 import { Aplicacion } from "../../../models/grupo-aplicaciones/Aplicacion";
 
 type AplicacionProps = {
@@ -13,10 +13,10 @@ const useEstilos = makeStyles((theme) => ({
     },
     listaItem: {
         padding: 5,
-        color: "#cae1c4"
+        color: "#061101"
     },
     color:{
-        color: "white"
+        color: "#3cad06"
     }
 
 }));
@@ -29,7 +29,7 @@ const AplicacionItem: React.FC<AplicacionProps> = (props) => {
     <List component="ul" className={classes.list}>
       <ListItem button>
         <ListItemIcon>
-          <RepeatRoundedIcon className={classes.color}/>
+          <BarChartIcon className={classes.color}/>
         </ListItemIcon>
         <ListItem>
         <ListItem className={classes.listaItem}>{props.aplicacion.apl}</ListItem>

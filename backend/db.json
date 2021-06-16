@@ -5,6 +5,7 @@
         "cliente": "NOMBRE CLIENTE ..............",
         "logoCliente": "https://www.togasybirretesmexico.com.mx/wp-content/uploads/2019/02/LOGO-CLIENTES.png"
     },
+
     "gruposAplicaciones": 
     [
         { 
@@ -13,21 +14,40 @@
             "aplicaciones": 
             [
                 {
-                        "apl": "ctb",
-                        "descr": "contabilidad1",
-                        "img": "",
-                        "activo": "1|0"
-                    },
-                    {
-                        "apl": "ctb",
-                        "descr": "contabilidad2",
-                        "img": "",
-                        "activo": "1|0"
-                    }
-                    
-                ]
-            },
-            { 
+                    "apl": "ctb",
+                    "descr": "contabilidad1",
+                    "img": "",
+                    "activo": "1|0"
+                },
+                {
+                    "apl": "ctb",
+                    "descr": "contabilidad2",
+                    "img": "",
+                    "activo": "1|0"
+                },
+                {
+                    "apl": "ctb",
+                    "descr": "contabilidad3",
+                    "img": "",
+                    "activo": "1|0"
+                },
+                {
+                    "apl": "ctb",
+                    "descr": "contabilidad4",
+                    "img": "",
+                    "activo": "1|0"
+                },
+                {
+                    "apl": "ctb",
+                    "descr": "contabilidad5",
+                    "img": "",
+                    "activo": "1|0"
+                }
+                
+            ]
+        },
+        
+        { 
             "area":"Cartera",
             "img":"",
             "aplicaciones": 
@@ -46,8 +66,41 @@
                 }
                 
             ]
+        },
+        { 
+            "area":"Facturacion",
+            "img":"",
+            "aplicaciones": 
+            [
+                {
+                    "apl": "fac",
+                    "descr": "facturacion1",
+                    "img": "",
+                    "activo": "1|0"
+                },
+                {
+                    "apl": "fac",
+                    "descr": "facturacion2",
+                    "img": "",
+                    "activo": "1|0"
+                },
+                {
+                    "apl": "fac",
+                    "descr": "facturacion3",
+                    "img": "",
+                    "activo": "1|0"
+                },
+                {
+                    "apl": "fac",
+                    "descr": "facturacion4",
+                    "img": "",
+                    "activo": "1|0"
+                }
+                
+            ]
         }
     ],
+
     "opcionesPreferidas":
     [
         {

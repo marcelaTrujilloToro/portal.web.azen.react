@@ -9,8 +9,9 @@ export const useGrupoAplicaciones = () => {
     
     const azenApi = useAzenApi();
 
-    return useQuery<GrupoAplicaciones[]>(['grupoAplicaciones'], async () => {
-        const { data } = await azenApi.get(`grupoAplicaciones`);
+    return useQuery<GrupoAplicaciones[]>(['gruposAplicaciones'], async () => {
+        const { data } = await azenApi.get(`gruposAplicaciones`);
+
         return data;
     }, {
         retry: 1,

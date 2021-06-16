@@ -1,7 +1,6 @@
 import { Grid, makeStyles, Typography } from '@material-ui/core';
 import React from 'react';
 import { Aplicacion } from '../../../models/grupo-aplicaciones/Aplicacion';
-import { GrupoAplicaciones } from '../../../models/grupo-aplicaciones/GrupoAplicaciones';
 import ItemAplicacion from '../item-aplicacion/item-aplicacion.comp';
 
 type ListaAplicacionesProps = {
@@ -26,7 +25,7 @@ const ListaAplicaciones: React.FC <ListaAplicacionesProps> = (props) => {
         return (
             <>
 
-            <Typography variant="h5" className={classes.fuenteTitulo}>titulo</Typography>
+            <Typography variant="h5" className={classes.fuenteTitulo}></Typography>
             <Grid container>
               {props.listaAplicaciones.map((aplicacion) => {
                   return <ItemAplicacion key={aplicacion.descr} aplicacion={aplicacion}></ItemAplicacion>
