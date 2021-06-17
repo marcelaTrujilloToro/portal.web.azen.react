@@ -5,4 +5,4 @@ export interface OpcionFrecuente{
     descrOpc: string,
     img: string,
     activo: number
-}
+};

@@ -181,5 +181,39 @@
             "img": "",
             "activo": "1"
         }
+    ],
+    "soporte":
+    [
+        {
+            "opc": "opcion1",
+            "descr": "soporte1",
+            "img": ""
+        },
+        {
+            "opc": "opcion2",
+            "descr": "soporte2",
+            "img": ""
+        },
+        {
+            "opc": "opcion3",
+            "descr": "soporte3",
+            "img": ""
+        },
+        {
+            "opc": "opcion4",
+            "descr": "soporte4",
+            "img": ""
+        },
+        {
+            "opc": "opcion5",
+            "descr": "soporte5",
+            "img": ""
+        },
+        {
+            "opc": "opcion6",
+            "descr": "soporte6",
+            "img": ""
+        }
+
     ]
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { Drawer, makeStyles, Typography } from "@material-ui/core";
-
+import {useOpcionesSoporte} from '../../../hooks/opciones-soporte/useOpcionesSoporte.hook';
+import ListaSoporte from '../components/lista-soporte/lista-soporte.comp';
 
 const useEstilos = makeStyles((theme) => ({
   drawer: {
@@ -11,7 +12,6 @@ drawerPaper: {
     width: 200,
     backgroundColor: '#3cad06',
     alignItems: 'center',
-    justifyContent: 'center',
     color: "white"
 },
 toolbar: theme.mixins.toolbar,
@@ -20,6 +20,8 @@ toolbar: theme.mixins.toolbar,
 const DrawerDerecho = (props: any) => {
 
   const classes = useEstilos();
+
+  const { data: respuesta} = useOpcionesSoporte();
 
   return (
     <Drawer
@@ -33,8 +35,9 @@ const DrawerDerecho = (props: any) => {
       open={props.open}
       onClose={props.onClose ? props.onClose : null}
     >
+      <div className={classes.toolbar}></div>
     <Typography variant="h5" color="initial" >Soporte</Typography>
-    <Typography variant="h6" color="initial" >Documentación</Typography>
+    <ListaSoporte listaSoportes={respuesta}></ListaSoporte>
     </Drawer>
   );
 };

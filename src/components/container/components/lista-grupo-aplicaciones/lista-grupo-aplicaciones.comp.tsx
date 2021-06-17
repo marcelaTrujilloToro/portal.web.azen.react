@@ -1,5 +1,5 @@
 import { Grid, ListItemIcon, makeStyles, Typography } from "@material-ui/core";
-import React from "react";
+import React, { Fragment } from "react";
 import { GrupoAplicaciones } from "../../../../models/grupo-aplicaciones/GrupoAplicaciones";
 import ListaAplicaciones from "../lista-aplicaciones/lista-aplicaciones.comp";
 import BusinessIcon from '@material-ui/icons/Business';
@@ -31,7 +31,7 @@ const ListaGrupoAplicaciones: React.FC<ListaGrupoAplicacionesProps> = (props) =>
       <Grid container>
         {props.listaGrupoAplicaciones.map((grupoAplicaciones) => {
           return (
-            <>
+            <Fragment key={grupoAplicaciones.area}>
               <ListItemIcon>
                 <BusinessIcon className={classes.icono}/>
               </ListItemIcon>
@@ -40,7 +40,7 @@ const ListaGrupoAplicaciones: React.FC<ListaGrupoAplicacionesProps> = (props) =>
                 listaAplicaciones={grupoAplicaciones.aplicaciones}
               ></ListaAplicaciones>
               <hr className="pa-division-aplicaciones"/>
-            </>
+            </Fragment>
           );
         })}
       </Grid>

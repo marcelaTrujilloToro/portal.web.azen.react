@@ -7,7 +7,7 @@ import {
     IconButton,
     Icon, Grid,
 } from "@material-ui/core";
-import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
+import HelpIcon from '@material-ui/icons/Help';
 
 import { useDatosIniciales } from "../../hooks/datos-iniciales/useDatos.hook";
 import './nav-bar.style.css';
@@ -75,7 +75,7 @@ const NavBar = (props: any) => {
         className={classes.soporteButton}
         onClick={() => props.accionAbrirSoporte()}
       >
-         <HelpOutlineIcon/>
+         <HelpIcon/>
       </IconButton>
       
     </Toolbar>
