@@ -1,5 +1,5 @@
 import React from "react";
-import { List, ListItem, ListItemIcon, makeStyles } from "@material-ui/core";
+import { List, ListItem, ListItemIcon, ListItemText, makeStyles } from "@material-ui/core";
 import BarChartIcon from '@material-ui/icons/BarChart';
 import { Aplicacion } from "../../../../models/grupo-aplicaciones/Aplicacion";
 
@@ -32,8 +32,7 @@ const AplicacionItem: React.FC<AplicacionProps> = (props) => {
         <ListItemIcon>
           <BarChartIcon className={classes.color}/>
         </ListItemIcon>
-        <ListItem className={classes.listaItem}>{props.aplicacion.apl}</ListItem>
-        <ListItem className={classes.listaItem}>{props.aplicacion.descr}</ListItem>
+        <ListItemText className={classes.listaItem} primary={props.aplicacion.apl} secondary={props.aplicacion.descr}></ListItemText>
       </ListItem>
     </List>
   );

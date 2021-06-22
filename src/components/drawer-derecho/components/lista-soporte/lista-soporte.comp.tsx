@@ -26,7 +26,7 @@ const useEstilos = makeStyles((theme) => ({
         return (
             <Grid container>
               {props.listaSoportes.map((opcionSoporte) => {
-                  return <SoporteItem key={opcionSoporte.opc} frecuente={opcionSoporte}></SoporteItem>
+                  return <SoporteItem key={opcionSoporte.opc} soporte={opcionSoporte}></SoporteItem>
               })}
             </Grid>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { OpcionPreferido } from "../../../../../models/opciones-preferidas/OpcionPreferido";
-import { List, ListItem, ListItemIcon, makeStyles } from "@material-ui/core";
+import { Divider, List, ListItem, ListItemIcon, ListItemText, makeStyles } from "@material-ui/core";
 import StarRoundedIcon from '@material-ui/icons/StarRounded';
 
 type PreferidoProps = {
@@ -27,12 +27,11 @@ const PreferidoItem: React.FC<PreferidoProps> = (props) => {
 
   return (
     <List component="ul" className={classes.list}>
-      <ListItem button>
+      <ListItem button alignItems="flex-start">
         <ListItemIcon >
           <StarRoundedIcon className={classes.color}/>
         </ListItemIcon>
-        <ListItem className={classes.listaItem}>{props.preferido.opc}</ListItem>
-        <ListItem className={classes.listaItem} >{props.preferido.descrOpc}</ListItem>
+        <ListItemText className={classes.listaItem} primary={props.preferido.opc} secondary={props.preferido.descrOpc}></ListItemText>
       </ListItem>
     </List>
   );

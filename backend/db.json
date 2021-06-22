@@ -1,219 +1,261 @@
 {
-    "datosIniciales":{
+    "datosIniciales":
+      {
         "azen": "AZEN consultoria",
-        "logoAzen": "https://github.com/marcelaTrujilloToro/loteriApp.ionic.react/blob/main/public/assets/img/splash/LoteriApp_azen_96x30.png?raw=true",
-        "cliente": "NOMBRE CLIENTE ..............",
-        "logoCliente": "https://www.togasybirretesmexico.com.mx/wp-content/uploads/2019/02/LOGO-CLIENTES.png"
-    },
-
-    "gruposAplicaciones": 
-    [
-        { 
-            "area":"Contabilidad",
-            "img":"",
-            "aplicaciones": 
-            [
-                {
-                    "apl": "ctb",
-                    "descr": "contabilidad1",
-                    "img": "",
-                    "activo": "1|0"
-                },
-                {
-                    "apl": "ctb",
-                    "descr": "contabilidad2",
-                    "img": "",
-                    "activo": "1|0"
-                },
-                {
-                    "apl": "ctb",
-                    "descr": "contabilidad3",
-                    "img": "",
-                    "activo": "1|0"
-                },
-                {
-                    "apl": "ctb",
-                    "descr": "contabilidad4",
-                    "img": "",
-                    "activo": "1|0"
-                },
-                {
-                    "apl": "ctb",
-                    "descr": "contabilidad5",
-                    "img": "",
-                    "activo": "1|0"
-                }
-                
-            ]
+        "logoAzen": "",
+        "cliente": "xxxxx",
+        "logoCliente": ""
+      },
+    "gruposAplicaciones":
+     [
+        {
+          "area":"Comercial",
+          "aplicaciones":
+          [
+            {
+              "apl":"azenaad",
+              "descr":"Azen Actos administrativos",
+              "activo":"1"
+            },
+            {
+              "apl":"azencrt",
+              "descr":"Azen cartera de clientes",
+              "activo":"1"
+            },
+            {
+              "apl":"azenlon",
+              "descr":"Loteria online",
+              "activo":"1"
+            },
+            {
+              "apl":"azenltr",
+              "descr":"AZEN Loteria",
+              "activo":"1"
+            },
+            {
+              "apl":"azenonl",
+              "descr":"Azen loteria on line",
+              "activo":"1"
+            },
+            {
+              "apl":"azenonla",
+              "descr":"Apostadores loteria on line",
+              "activo":"1"
+            },
+            {
+              "apl":"azenonlv",
+              "descr":"Azen loteria on line-v",
+              "activo":"1"
+            },
+            {
+              "apl":"azenprm",
+              "descr":"Manejo promocionales - loteria",
+              "activo":"1"
+            }
+          ]
         },
-        
-        { 
-            "area":"Cartera",
-            "img":"",
-            "aplicaciones": 
-            [
-                {
-                    "apl": "crt",
-                    "descr": "cartera1",
-                    "img": "",
-                    "activo": "1|0"
-                },
-                {
-                    "apl": "crt",
-                    "descr": "cartera2",
-                    "img": "",
-                    "activo": "1|0"
-                }
-                
-            ]
+        {
+          "area":"Financiero",
+          "aplicaciones":
+          [
+            {
+              "apl":"azencau",
+              "descr":"AZEN Causaciones",
+              "activo":"1"
+            },
+            {
+              "apl":"azenctb",
+              "descr":"Azen Contabilidad ver 2.0",
+              "activo":"1"
+            },
+            {
+              "apl":"azennmn",
+              "descr":"AZEN Nomina",
+              "activo":"1"
+            },
+            {
+              "apl":"azenprs",
+              "descr":"Azen Presupuesto ver 2.0",
+              "activo":"1"
+            }
+          ]
         },
-        { 
-            "area":"Facturación",
-            "img":"",
-            "aplicaciones": 
-            [
-                {
-                    "apl": "fac",
-                    "descr": "facturacion1",
-                    "img": "",
-                    "activo": "1|0"
-                },
-                {
-                    "apl": "fac",
-                    "descr": "facturacion2",
-                    "img": "",
-                    "activo": "1|0"
-                },
-                {
-                    "apl": "fac",
-                    "descr": "facturacion3",
-                    "img": "",
-                    "activo": "1|0"
-                },
-                {
-                    "apl": "fac",
-                    "descr": "facturacion4",
-                    "img": "",
-                    "activo": "1|0"
-                }
-                
-            ]
+        {
+          "area":"Administrativo",
+          "aplicaciones":
+          [
+            {
+              "apl":"azenact",
+              "descr":"Azen Activos Fijos",
+              "activo":"1"
+            },
+            {
+              "apl":"azenalm",
+              "descr":"AZEN Almacen",
+              "activo":"1"
+            },
+            {
+              "apl":"azenaud",
+              "descr":"Azen Auditoria",
+              "activo":"1"
+            },
+            {
+              "apl":"azenctn",
+              "descr":"Azen Contratacion",
+              "activo":"1"
+            },
+            {
+              "apl":"azeninv",
+              "descr":"Azen Inventario (comercial) ver 3.0",
+              "activo":"1"
+            },
+            {
+              "apl":"azenivt",
+              "descr":"Azen inventario (almacen)",
+              "activo":"1"
+            }
+          ]
+        },
+        {
+          "area":"Logistica",
+          "aplicaciones":
+          [
+            {
+              "apl":"azenejl",
+              "descr":"Ejecucion logistica",
+              "activo":"1"
+            },
+            {
+              "apl":"azengsl",
+              "descr":"Azen generales logistica",
+              "activo":"1"
+            },
+            {
+              "apl":"azenprg",
+              "descr":"Programacion logistica",
+              "activo":"1"
+            },
+            {
+              "apl":"azenmto",
+              "descr":"Azen mantenimiento",
+              "activo":"1"
+            }
+          ]
+        },
+        {
+          "area":"Por definir",
+          "aplicaciones":
+          [
+            {
+              "apl":"azenmsj",
+              "descr":"Azen Mensajeria",
+              "activo":"1"
+            }
+          ]
         }
     ],
-
     "opcionesPreferidas":
     [
-        {
-            "apl": "apl",
-            "descr": "descripcion",
-            "opc": "opcion1",
-            "descrOpc": "descripcion",
-            "img": "",
-            "activo": "1"
-        },
-        {
-            "apl": "apl",
-            "descr": "descripcion",
-            "opc": "opcion2",
-            "descrOpc": "descripcion",
-            "img": "",
-            "activo": "1"
-        },
-        {
-            "apl": "apl",
-            "descr": "descripcion",
-            "opc": "opcion3",
-            "descrOpc": "descripcion",
-            "img": "",
-            "activo": "1"
-        },
-        
-        {
-            "apl": "apl",
-            "descr": "descripcion",
-            "opc": "opcion4",
-            "descrOpc": "descripcion",
-            "img": "",
-            "activo": "1"
-        },
-        {
-            "apl": "apl",
-            "descr": "descripcion",
-            "opc": "opcion5",
-            "descrOpc": "descripcion",
-            "img": "",
-            "activo": "1"
-        }
-        
+      {
+        "apl":"azenprs",
+        "opc":"prsinf_InformeEjecucionEgresos",
+        "descrOpc":"Informe de presupuesto de gasto .",
+        "activo":"1"
+      },
+      {
+        "apl":"azenctb",
+        "opc":"cta_BalancePrueba",
+        "descrOpc":"Genera el Balance de Prueba",
+        "activo":"1"
+      },
+      {
+        "apl":"azenprs",
+        "opc":"prsmen_Ejecutar",
+        "descrOpc":"Edicion de movimientos.",
+        "activo":"1"
+      },
+      {
+        "apl":"azenctb",
+        "opc":"asi_Ejecutar",
+        "descrOpc":"Edita los asientos de diario del mes activo",
+        "activo":"1"
+      }
     ],
     "opcionesFrecuentes":
     [
-        {
-            "apl": "apl",
-            "descr": "descripcion",
-            "opc": "opcion1",
-            "descrOpc": "descripcion",
-            "img": "",
-            "activo": "1|0"
-        },
-        {
-            "apl": "apl",
-            "descr": "descripcion",
-            "opc": "opcion2",
-            "descrOpc": "descripcion",
-            "img": "",
-            "activo": "1|0"
-        },
-        {
-            "apl": "apl",
-            "descr": "descripcion",
-            "opc": "opcion3",
-            "descrOpc": "descripcion",
-            "img": "",
-            "activo": "1"
-        },
-        
-        {
-            "apl": "apl",
-            "descr": "descripcion",
-            "opc": "opcion4",
-            "descrOpc": "descripcion",
-            "img": "",
-            "activo": "1"
-        }
+      {
+        "apl":"azenetl",
+        "opc":"etlproc_EjecutarExtraccionLoteria",
+        "descrOpc":"Proceso para la extraccion de datos del modulo de lazenetl",
+        "activo":"1"
+      },
+      {
+        "apl":"azenaad",
+        "opc":"aadmen_Ejecutar",
+        "descrOpc":"Editar, listar, movimientos.",
+        "activo":"1"
+      },
+      {
+        "apl":"zabd",
+        "opc":"zabd_TblExpTexto",
+        "descrOpc":"Exporta datos de una tabla a formato texto",
+        "activo":"1"
+      },
+      {
+        "apl":"zabd",
+        "opc":"zabd_TblEditarMulti",
+        "descrOpc":"Edita una tabla en forma multirregistro",
+        "activo":"1"
+      },
+      {
+        "apl":"azenaut",
+        "opc":"autmsvr_ResultadosSorteo",
+        "descrOpc":"Constulta los resultados de un sorteo",
+        "activo":"1"
+      },
+      {
+        "apl":"azenadm",
+        "opc":"zapl_Despachar",
+        "descrOpc":"Maneja las aplicaciones instaladas",
+        "activo":"1"
+      },
+      {
+        "apl":"azenmsj",
+        "opc":"msjenc_EjecutarMensajes",
+        "descrOpc":"Edita los encabezados de mensajes",
+        "activo":"1"
+      },
+      {
+        "apl":"azensgd",
+        "opc":"sgdcten_Ejecutar",
+        "descrOpc":"Edita los encabezados de catalogo",
+        "activo":"1"
+      },
+      {
+        "apl":"zabd",
+        "opc":"zabd_CargarAConexion",
+        "descrOpc":"Exporta y carga datos a una base de datos",
+        "activo":"1"
+      },
+      {
+        "apl":"azenadm",
+        "opc":"zadm_DespacharBaseDatos",
+        "descrOpc":"Define y maneja bases de datos",
+        "activo":"1"
+      }
     ],
     "soporte":
     [
-        {
-            "opc": "opcion1",
-            "descr": "soporte1",
-            "img": ""
-        },
-        {
-            "opc": "opcion2",
-            "descr": "soporte2",
-            "img": ""
-        },
-        {
-            "opc": "opcion3",
-            "descr": "soporte3",
-            "img": ""
-        },
-        {
-            "opc": "opcion4",
-            "descr": "soporte4",
-            "img": ""
-        },
-        {
-            "opc": "opcion5",
-            "descr": "soporte5",
-            "img": ""
-        },
-        {
-            "opc": "opcion6",
-            "descr": "soporte6",
-            "img": ""
-        }
-
+      {
+        "opc":"Atencion al cliente",
+        "descr":"http:/atencionalcliente.com",
+        "img":"http:/imagenatencion.jpg"
+      },
+      {
+        "opc":"Soporte tecnico",
+        "descr":"http:/soporte.com",
+        "img":"http:/soporteimagen.jpg"
+      }
     ]
-}
+  }
+  

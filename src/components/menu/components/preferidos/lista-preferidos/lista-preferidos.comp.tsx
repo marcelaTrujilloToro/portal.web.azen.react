@@ -3,7 +3,7 @@ import { OpcionPreferido } from "../../../../../models/opciones-preferidas/Opcio
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import PreferidoItem from "../preferido-item/item-preferido.comp";
-import { makeStyles } from "@material-ui/core";
+import { Divider, makeStyles } from "@material-ui/core";
 
 type ListaPreferidosProps = {
   listaPreferidos: OpcionPreferido[] | undefined;
@@ -38,10 +38,14 @@ const ListaPreferidos: React.FC<ListaPreferidosProps> = (props) => {
 
               
             return (
+              <>
               <PreferidoItem
                 key={opcionPreferida.opc}
                 preferido={opcionPreferida}
               ></PreferidoItem>
+               <Divider orientation="horizontal" flexItem />
+              </>
+              
             );
           })}
         </Grid>

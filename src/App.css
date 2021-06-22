@@ -3,3 +3,7 @@
     width: 60%;
     justify-content: center;
 }
+
+.MuiListItemIcon-root{
+    min-width: 20px;
+}

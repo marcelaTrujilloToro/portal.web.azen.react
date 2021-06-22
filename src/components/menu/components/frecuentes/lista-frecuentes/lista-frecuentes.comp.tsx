@@ -3,7 +3,7 @@ import { OpcionFrecuente } from '../../../../../models/opciones-frecuentes/Opcio
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import FrecuenteItem from '../frecuente-item/item-frecuente.comp';
-import { makeStyles } from '@material-ui/core';
+import { Divider, makeStyles } from '@material-ui/core';
 
 
 
@@ -33,8 +33,9 @@ const useEstilos = makeStyles((theme) => ({
             <Typography variant="h5" className={classes.fuenteTitulo}>Frecuentes</Typography>
             <Grid container>
               {props.listaFrecuentes.map((opcionPreferida) => {
-                  return <FrecuenteItem key={opcionPreferida.opc} frecuente={opcionPreferida}></FrecuenteItem>
+                  return  <FrecuenteItem key={opcionPreferida.opc} frecuente={opcionPreferida}></FrecuenteItem>
               })}
+              
             </Grid>
 
             </>

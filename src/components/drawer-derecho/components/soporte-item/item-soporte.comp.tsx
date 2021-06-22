@@ -4,7 +4,7 @@ import { OpcionSoporte } from "../../../../models/opciones-soporte/OpcionSoporte
 import DescriptionIcon from '@material-ui/icons/Description';
 
 type SoporteProps = {
-    frecuente: OpcionSoporte;
+    soporte: OpcionSoporte;
   };
   
   const useEstilos = makeStyles((theme) => ({
@@ -31,8 +31,7 @@ type SoporteProps = {
           <ListItemIcon >
             <DescriptionIcon className={classes.color}/>
           </ListItemIcon>
-          <ListItem className={classes.listaItem}>{props.frecuente.opc}</ListItem>
-          <ListItem className={classes.listaItem} >{props.frecuente.descr}</ListItem>
+          <ListItem className={classes.listaItem}>{props.soporte.opc}</ListItem>
         </ListItem>
       </List>
     );
