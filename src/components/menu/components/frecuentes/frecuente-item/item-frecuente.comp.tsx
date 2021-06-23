@@ -13,11 +13,20 @@ const useEstilos = makeStyles((theme) => ({
         padding: 0,
     },
     listaItem: {
-        padding: 5,
+        padding: 3,
         color: "#ecf7e6",
+        margin: 0,
+        maxWidth:165
     },
     icono:{
         color: "white"
+    },
+    itemIcono:{
+      minWidth: 30
+    },
+    contenedorItem: {
+        paddingLeft: 8,
+        paddingRight: 8
     }
     
 }));
@@ -27,12 +36,14 @@ const FrecuenteItem: React.FC<FrecuenteProps> = (props) => {
     const classes = useEstilos();
 
   return (
-    <List component="ul" className={classes.list}>
-      <ListItem button>
-        <ListItemIcon >
+    <List component="ul" className={classes.list} >
+      <ListItem button className={classes.contenedorItem}>
+        <ListItemIcon className={classes.itemIcono}>
           <RepeatRoundedIcon className={classes.icono}/>
         </ListItemIcon>
-        <ListItemText className={classes.listaItem} primary={props.frecuente.opc} secondary={props.frecuente.descrOpc}></ListItemText>
+        <ListItemText className={classes.listaItem} primary={props.frecuente.opc} secondary={props.frecuente
+        .descrOpc}>
+        </ListItemText>
       </ListItem>
     </List>
   );

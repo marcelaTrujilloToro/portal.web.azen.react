@@ -10,15 +10,24 @@ type AplicacionProps = {
 const useEstilos = makeStyles((theme) => ({
     list:{
         padding: 0,
-        margin: 0
     },
     listaItem: {
         padding: 5,
-        color: "#061101"
+        color: "#061101",
+        margin: 0
     },
     color:{
         color: "#3cad06"
-    }
+    },
+    itemIcono:{
+      minWidth: 30
+    },
+    contenedorItem: {
+      paddingLeft: 10,
+      paddingRight: 10,
+      paddingBottom:7,
+      paddingTop:7
+    },
 
 }));
 
@@ -28,8 +37,8 @@ const AplicacionItem: React.FC<AplicacionProps> = (props) => {
 
   return (
     <List component="ul" className={classes.list}>
-      <ListItem button>
-        <ListItemIcon>
+      <ListItem button className={classes.contenedorItem}>
+        <ListItemIcon className={classes.itemIcono}>
           <BarChartIcon className={classes.color}/>
         </ListItemIcon>
         <ListItemText className={classes.listaItem} primary={props.aplicacion.apl} secondary={props.aplicacion.descr}></ListItemText>

@@ -8,7 +8,9 @@ const useEstilos = makeStyles((theme) => ({
   
     fuente:{
         color: "#1f5803",
-        padding: 30
+        padding: 30,
+        fontWeight:500,
+        fontFamily: 'Roboto'
     }
   
 }));
@@ -28,7 +30,7 @@ const BoxAplicaciones = () => {
         return(
 
             <Box>
-                <Typography variant="h4" align="center" className={classes.fuente}>Aplicaciones</Typography>
+                <Typography variant="h4" align="center" className={classes.fuente}>APLICACIONES</Typography>
                 <ListaGrupoAplicaciones listaGrupoAplicaciones={respuesta}></ListaGrupoAplicaciones>
             </Box>
         )

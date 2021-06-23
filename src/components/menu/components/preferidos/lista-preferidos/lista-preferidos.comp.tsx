@@ -12,6 +12,7 @@ type ListaPreferidosProps = {
 const useEstilos = makeStyles((theme) => ({
   fuenteTitulo: {
       color: "#1f5803",
+      
   }
 }));
 
@@ -38,13 +39,12 @@ const ListaPreferidos: React.FC<ListaPreferidosProps> = (props) => {
 
               
             return (
-              <>
+              
               <PreferidoItem
                 key={opcionPreferida.opc}
                 preferido={opcionPreferida}
               ></PreferidoItem>
-               <Divider orientation="horizontal" flexItem />
-              </>
+               
               
             );
           })}

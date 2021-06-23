@@ -9,7 +9,7 @@ const useEstilos = makeStyles((theme) => ({
     flexShrink: 0,
 },
 drawerPaper: {
-    width: 200,
+    width: 180,
     backgroundColor: '#3cad06',
     alignItems: 'center',
     color: "white"

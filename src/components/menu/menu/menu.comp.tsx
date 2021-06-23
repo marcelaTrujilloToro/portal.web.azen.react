@@ -14,7 +14,7 @@ const useEstilos = makeStyles((theme) => ({
 },
 drawerPaper: {
     width: 240,
-    backgroundColor: '#369c05',
+    backgroundColor: '#3cad06',
     alignItems: 'center'
 },
 toolbar: theme.mixins.toolbar,

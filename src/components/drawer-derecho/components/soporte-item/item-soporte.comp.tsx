@@ -17,6 +17,9 @@ type SoporteProps = {
       },
       color:{
           color: "white"
+      },
+      itemIcono:{
+        minWidth: 40
       }
       
     }));
@@ -28,7 +31,7 @@ type SoporteProps = {
     return (
       <List component="ul" className={classes.list}>
         <ListItem button>
-          <ListItemIcon >
+          <ListItemIcon className={classes.itemIcono} >
             <DescriptionIcon className={classes.color}/>
           </ListItemIcon>
           <ListItem className={classes.listaItem}>{props.soporte.opc}</ListItem>
