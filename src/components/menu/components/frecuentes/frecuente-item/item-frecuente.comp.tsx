@@ -41,9 +41,10 @@ const FrecuenteItem: React.FC<FrecuenteProps> = (props) => {
         <ListItemIcon className={classes.itemIcono}>
           <RepeatRoundedIcon className={classes.icono}/>
         </ListItemIcon>
-        <ListItemText className={classes.listaItem} primary={props.frecuente.opc} secondary={props.frecuente
-        .descrOpc}>
-        </ListItemText>
+        <ListItem className={classes.listaItem} >
+        {props.frecuente
+        .descrOpc}
+        </ListItem>
       </ListItem>
     </List>
   );

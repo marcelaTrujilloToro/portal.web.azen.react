@@ -30,7 +30,7 @@ const BoxAplicaciones = () => {
         return(
 
             <Box>
-                <Typography variant="h4" align="center" className={classes.fuente}>APLICACIONES</Typography>
+                <Typography variant="h5" align="center" className={classes.fuente}>APLICACIONES</Typography>
                 <ListaGrupoAplicaciones listaGrupoAplicaciones={respuesta}></ListaGrupoAplicaciones>
             </Box>
         )

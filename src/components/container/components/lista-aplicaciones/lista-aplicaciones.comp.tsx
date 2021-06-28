@@ -28,7 +28,7 @@ const ListaAplicaciones: React.FC <ListaAplicacionesProps> = (props) => {
             <Typography variant="h5" className={classes.fuenteTitulo}></Typography>
             <Grid container>
               {props.listaAplicaciones.map((aplicacion) => {
-                  return <ItemAplicacion key={aplicacion.descr} aplicacion={aplicacion}></ItemAplicacion>
+                  return <ItemAplicacion key={aplicacion.apl} aplicacion={aplicacion}></ItemAplicacion>
               })}
             </Grid>
 

@@ -62,7 +62,7 @@ const NavBar = (props: any) => {
           <img className="pa-logo-azen" src={respuesta?.logoAzen} alt="" />
         </Grid> */}
         <Grid>
-          <img  className="pa-logo-cliente" src={respuesta?.logoCliente} alt="" />
+          <img  className="pa-logo-cliente" src={respuesta?.logoCliente} alt="Logo cliente" />
         </Grid>
         <Grid>
           <Typography variant="h6">{respuesta?.cliente}</Typography>

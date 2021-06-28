@@ -41,7 +41,7 @@ const AplicacionItem: React.FC<AplicacionProps> = (props) => {
         <ListItemIcon className={classes.itemIcono}>
           <BarChartIcon className={classes.color}/>
         </ListItemIcon>
-        <ListItemText className={classes.listaItem} primary={props.aplicacion.apl} secondary={props.aplicacion.descr}></ListItemText>
+        <ListItemText className={classes.listaItem} secondary={props.aplicacion.descr}></ListItemText>
       </ListItem>
     </List>
   );

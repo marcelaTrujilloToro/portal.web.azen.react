@@ -41,7 +41,7 @@ const MenuComp = (props: any) => {
       open={props.open}
       onClose={props.onClose ? props.onClose : null}
     >
-      <img className="pa-logo-azen" src={respuesta?.logoAzen} alt="" />
+      <img className="pa-logo-azen" src={respuesta?.logoAzen} alt="logo azen" />
       <hr className="pa-division-menu"/>
       {/* <div className={classes.toolbar}></div> */}
       <ListaPreferidos listaPreferidos={respuestaOpcionesPreferidas}/>

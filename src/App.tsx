@@ -1,7 +1,7 @@
 import React from 'react';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from "react-query/devtools";
-import ContainerComp from './components/container/aplicaciones-container/container.comp';
+import AppRouter from './routes/AppRouter';
 import "./App.css";
 
 const queryClient = new QueryClient();
@@ -11,9 +11,8 @@ function App() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <div>
-        <ContainerComp/>
-      </div>
+     
+        <AppRouter/>
     <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   );

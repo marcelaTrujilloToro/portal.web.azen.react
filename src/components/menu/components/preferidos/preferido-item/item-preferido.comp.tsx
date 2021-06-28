@@ -45,11 +45,9 @@ const PreferidoItem: React.FC<PreferidoProps> = (props) => {
         <ListItemIcon className={classes.itemIcono}>
           <StarRoundedIcon className={classes.icono} />
         </ListItemIcon>
-        <ListItemText
+        <ListItem
           className={classes.listaItem}
-          primary={props.preferido.opc}
-          secondary={props.preferido.descrOpc}
-        ></ListItemText>
+        >{props.preferido.descrOpc}</ListItem>
       </ListItem>
     </List>
   );
